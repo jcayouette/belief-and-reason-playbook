@@ -7,7 +7,7 @@ content:
     branches: main
  # - url: https://gitlab.com/antora/demo/demo-component-b.git
  #   branches: [main]
-    start_path: ROOT
+ #   start_path: ROOT
 ui: 
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
