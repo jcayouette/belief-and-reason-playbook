@@ -1,6 +1,6 @@
 site:
   title: Belief and Reason
-  start_page: starthere::index.adoc 
+  start_page: home::index.adoc 
 content:
   sources: 
   - url: https://github.com/jcayouette/belief-and-reason
