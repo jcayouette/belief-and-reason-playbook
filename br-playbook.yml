@@ -1,6 +1,6 @@
 site:
   title: Belief and Reason
-  start_page: archeology::index.adoc 
+  start_page: ROOT::index.adoc 
 
   url: /
 
