@@ -10,7 +10,6 @@ content:
   sources:
 
 # br-root and introduction should be combined into one repo
- 
   - url: https://github.com/jcayouette/br-intro.git
     branches: main
 
@@ -81,7 +80,7 @@ asciidoc:
     sectnums: true
     sectnumlevels: 5
     toclevels: 3
-    toc: true
+    toc: left
     icons: font
     experimental: true
 
