@@ -11,21 +11,21 @@ i.fa[title="Warning:"] {
   font-family: inherit;
 }
 
-/* Top Navbar colors */
+/* Top Navbar colors 
 .navbar-brand
   .navbar-item:first-child
   .navbar-brand
   .navbar-item:first-child
   a {
   background-color: #0b322c;
-}
+} */
 
-/* Nav menu */
+/* Nav menu 
 .nav-menu {
   background-color: #efefef;
   line-height: 22px;
   padding: 0.25rem 0.5rem;
-}
+} */
 
 .nav-menu a {
   color: #0a322c;
@@ -39,10 +39,10 @@ i.fa[title="Warning:"] {
 .navbar-link:hover {
   background-color: #33ba78;
 }
-
+/*
 .nav-container {
   width: max-content;
-}
+} */
 
 /* navbar background color */
 .navbar {
