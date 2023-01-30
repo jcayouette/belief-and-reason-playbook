@@ -1,5 +1,5 @@
 site:
-  title: Belief and Reason
+  title: Home
   start_page: welcome::index.adoc 
 
   url: /
