@@ -1,23 +1,78 @@
-/* admonition icons */
-i.fa[title="Note:"] {
+/* admon icons */
+i.fa[title='Note:'] {
   font-family: inherit;
 }
 
-i.fa[title="Important:"] {
+i.fa[title='Important:'] {
   font-family: inherit;
 }
 
-i.fa[title="Warning:"] {
+i.fa[title='Warning:'] {
   font-family: inherit;
 }
 
-/* Top Navbar colors */
-.navbar-brand
-  .navbar-item:first-child
-  .navbar-brand
-  .navbar-item:first-child
-  a {
+/* icons for pdfs and archive */
+.fa-file-pdf {
+  color: #00c081;
+}
+
+.fa-file-archive {
+  color: #00c081;
+}
+
+.fa-github:before {
+  content: "\f09b";
+  color: #0a322c;
+}
+
+.fa-user-edit:before {
+  content: "\f4ff";
+  color: #0a322c;
+}
+
+/* HACK to fix twitter link */
+#twitter-link {
+  float: right;
+  border-bottom-style: solid;
+  /* border-bottom-color: #33ba78; */
+  border-bottom-width: 2px;
+}
+
+.edit-this-page {
+  visibility: hidden;
+}
+
+/* Navbar colors */
+.navbar-brand .navbar-item:first-child .navbar-brand .navbar-item:first-child a {
   background-color: #0b322c;
+}
+
+/* navigation buttons top nav */
+.navbar .button {
+  border: none;
+  background-color: #e9644e;
+}
+
+.nav-panel-explore .context {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-end .navbar-link:hover, .navbar-end > a.navbar-item:hover {
+    background-color: #ff6a52;
+    color: #fff;
+  }
+}
+
+.nav-container {
+  width: max-content;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-dropdown a.navbar-item:hover {
+    background-color: #30ba78;
+    color: white;
+  }
 }
 
 /* Nav menu */
@@ -40,13 +95,36 @@ i.fa[title="Warning:"] {
   background-color: #33ba78;
 }
 
-.nav-container {
-  width: max-content;
+/* Dropdown menu border color */
+div#topbar-nav {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0C322C;
+}
+/* Dropdown menu border hover */
+div#topbar-nav :hover {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0C322C;
+}
+
+/* Brand border color */
+.navbar-brand {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0C322C;
+
 }
 
 /* navbar background color */
 .navbar {
   background-color: #0a322c;
+}
+
+/* margin hack: we need this margin to prevent logo from covering
+ bottom navbar border on lower resolutions screens */
+a.navbar-logo {
+  margin-bottom: 4px;
 }
 
 /* Tool bar */
@@ -60,6 +138,15 @@ i.fa[title="Warning:"] {
 
 .toolbar {
   background-color: #efefef;
+}
+
+/* left nav panel */
+.nav-panel-menu {
+  background-color: #efefef;
+}
+
+.panels {
+  background-color: #EFEFEF;
 }
 
 /* Left Nav Link styles  */
@@ -125,6 +212,16 @@ background-color: #0a322c;
   border-radius: 0;
 }
 
+.logo {
+  width: 171px;
+  height: 57px;
+  top: 0;
+  left: 0;
+  position: sticky;
+  padding: 0;
+  z-index: 12;
+}
+
 /* Heading colors in article */
 h1.page {
   color: #0C322C;
@@ -164,6 +261,61 @@ pre {
   border-radius: 12px;
 }
 
+/* Language Selection */
+
+img.langIcon.english {
+  width: 27px;
+  margin-right: 6px;
+}
+
+img.langIcon.spanish {
+  width: 27px;
+  margin-right: 6px;
+}
+
+img.langIcon.czech {
+  width: 27px;
+  margin-right: 6px;
+}
+
+img.langIcon.china {
+  width: 27px;
+  margin-right: 6px;
+}
+
+img.langIcon.japan {
+  width: 27px;
+  margin-right: 6px;
+}
+
+img.langIcon.korea {
+  width: 27px;
+  margin-right: 6px;
+}
+
+#zh_CN {
+  cursor: pointer;
+}
+
+#en {
+  cursor: pointer;
+}
+
+#es {
+  cursor: pointer;
+}
+
+#cs {
+  cursor: pointer;
+}
+
+#ja {
+  cursor: pointer;
+}
+
+#ko {
+  cursor: pointer;
+}
 /* asciidoc button unset parenthesis and weight */
 .doc b.button::before {
   content: unset;
