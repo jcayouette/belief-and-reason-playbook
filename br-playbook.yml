@@ -1,6 +1,11 @@
 site:
   title: Belief and Reason
   start_page: archeology::index.adoc 
+
+  url: /
+
+
+
 content:
   sources:
 
@@ -66,3 +71,23 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+
+asciidoc:
+  attributes:
+  
+    br: 'Belief and Reason'
+
+    #Asciidoc features
+    linkattrs: true
+    sectlinks: true
+    sectnums: true
+    sectnumlevels: 5
+    toclevels: 3
+    toc: true
+    icons: font
+    experimental: true
+
+output:
+  dir: ./build
+runtime:
+  cache_dir: ./.cache/antora
