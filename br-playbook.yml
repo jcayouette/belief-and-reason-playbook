@@ -1,11 +1,7 @@
 site:
   title: Belief and Reason
-  start_page: intro-index::index.adoc 
-  # Site.url
   url: /
-  # Set log level
-  log:
-  failure_level: warn
+  start_page: intro-index::index.adoc 
   robots: allow
 
 # Output directory and tmp cache
@@ -13,6 +9,10 @@ output:
   dir: ./public
 runtime:
   cache_dir: ./.cache/antora
+# Set log level
+  log:
+    failure_level: warn
+  
 
 # List of common words and terms. For example: Use {br} within documents for replacement
 # Asciidoc syntactical sugar functions
