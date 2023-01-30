@@ -1,2 +1,2 @@
-rm -rf build/
+rm -rf public/
 rm -rf .cache/
