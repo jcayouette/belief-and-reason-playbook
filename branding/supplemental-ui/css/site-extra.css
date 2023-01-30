@@ -3,6 +3,10 @@ i.fa[title="Note:"] {
   font-family: inherit;
 }
 
+body {
+  font-family: 'Bitter', serif;
+}
+
 i.fa[title="Important:"] {
   font-family: inherit;
 }
