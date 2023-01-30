@@ -1,7 +1,6 @@
 site:
-  title: Home
+  title: Belief and Reason
   start_page: welcome::index.adoc 
-
   url: /
 
 
