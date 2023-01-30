@@ -82,6 +82,10 @@ asciidoc:
     toc: left
     icons: font
     experimental: true
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+
 
 output:
   dir: ./build
