@@ -14,10 +14,27 @@ output:
 runtime:
   cache_dir: ./.cache/antora
 
-# Topic source repositories
+# List of common words and terms. For example: Use {br} within documents for replacement
+# Asciidoc syntactical sugar functions
+asciidoc:
+  attributes:
+    br: 'Belief and Reason'
+   
+    linkattrs: true    # Allows link text, optional target and roles as attributes on links
+    sectlinks: true    # Turns section titles into links
+    sectnums: true     # Turns on section numbers
+    sectnumlevels: 5   # Number of section levels allowed
+    toclevels: 3       # Number of tables of content levels allowed
+    toc: center        # Table of contents at top of document
+    icons: font        # Enables font icons  
+    experimental: true # Enables button, menu and keyboard macros
+    idprefix: ''       # Custom id prefix
+    idseparator: '-'   # Custom id separator
+    page-pagination: '' # Custom pagination
+
+# Topic source repository listing - all documents stored on github
 content:
   sources:
-
   - url: https://github.com/jcayouette/br-intro.git
     branches: main
     start_path: research
@@ -68,22 +85,8 @@ ui:
 
   supplemental_files: ./supplemental-ui
 
-asciidoc:
-  attributes:
 
-    br: 'Belief and Reason'
 
-    #Asciidoc features
-    linkattrs: true
-    sectlinks: true
-    sectnums: true
-    sectnumlevels: 5
-    toclevels: 3
-    toc: left
-    icons: font
-    experimental: true
-    idprefix: ''
-    idseparator: '-'
-    page-pagination: ''
+
 
 
