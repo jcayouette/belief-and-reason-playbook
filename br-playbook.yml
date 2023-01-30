@@ -1,8 +1,20 @@
 site:
   title: Belief and Reason
   start_page: intro-index::index.adoc 
+  # Site.url
   url: /
+  # Set log level
+  log:
+  failure_level: warn
+  robots: allow
 
+# Output directory and tmp cache
+output:
+  dir: ./public
+runtime:
+  cache_dir: ./.cache/antora
+
+# Topic source repositories
 content:
   sources:
 
@@ -54,6 +66,8 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
 
+  supplemental_files: ./supplemental-ui
+
 asciidoc:
   attributes:
 
@@ -73,7 +87,3 @@ asciidoc:
     page-pagination: ''
 
 
-output:
-  dir: ./build
-runtime:
-  cache_dir: ./.cache/antora
