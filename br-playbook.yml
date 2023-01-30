@@ -1,6 +1,6 @@
 site:
   title: Belief and Reason
-  start_page: index::index.adoc 
+  start_page: intro-index::index.adoc 
   url: /
 
 content:
@@ -8,6 +8,7 @@ content:
 
   - url: https://github.com/jcayouette/br-intro.git
     branches: main
+    start_path: research
 
   - url: https://github.com/jcayouette/br-archeology.git
     branches: main
