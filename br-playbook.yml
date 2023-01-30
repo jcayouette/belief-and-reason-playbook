@@ -13,16 +13,16 @@ content:
   - url: https://github.com/jcayouette/br-ROOT.git
     branches: main
 
-  - url: https://github.com/jcayouette/br-introduction.git
+  - url: https://github.com/jcayouette/br-intro.git
     branches: main
 
 # Archeology
-  - url: https://github.com/jcayouette/br-archeology.git
-    branches: main
+#  - url: https://github.com/jcayouette/br-archeology.git
+#    branches: main
 
 # Astronomy
-  - url: https://github.com/jcayouette/br-astronomy.git
-    branches: main
+#  - url: https://github.com/jcayouette/br-astronomy.git
+#    branches: main
 
 # Biology
   # - url: https://github.com/jcayouette/br-biology.git
@@ -74,7 +74,7 @@ ui:
 
 asciidoc:
   attributes:
-  
+
     br: 'Belief and Reason'
 
     #Asciidoc features
