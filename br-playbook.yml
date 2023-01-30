@@ -78,11 +78,13 @@ content:
   # - url: https://github.com/jcayouette/br-theology.git
   #   branches: main
 
+# User Interface Configuration
 ui: 
   bundle:
+  # Default Base User Interface
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-
+# Custom styling for User Interface
   supplemental_files: ./supplemental-ui
 
 
