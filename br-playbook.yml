@@ -44,8 +44,8 @@ content:
     - url: https://github.com/jcayouette/br-astronomy.git
       branches: main
 
-  # - url: https://github.com/jcayouette/br-biology.git
-  #   branches: main
+    - url: https://github.com/jcayouette/br-biology.git
+      branches: main
 
   # - url: https://github.com/jcayouette/br-chemistry.git
   #   branches: main
